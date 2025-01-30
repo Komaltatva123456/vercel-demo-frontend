@@ -4,7 +4,7 @@ import { Observable } from 'rxjs';
 
 @Injectable()
 export class AppService {
-    private readonly apiUrl = 'http://localhost:3000';
+    private readonly apiUrl = 'https://vercel-demo-six-pied.vercel.app';
    
 
     constructor(private http: HttpClient) { }
